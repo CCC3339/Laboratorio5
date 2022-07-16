@@ -20,7 +20,7 @@ function App() {
 let increaseTemperature = () => {
   let newTemperature = temperatureValue + 1;
   if(newTemperature <= 30 ){setTemperatureValue(newTemperature);}
-  if (newTemperature > 15 ) {
+  if (newTemperature > 20 ) {
     setTemperatureColor('hot');
   }
 };
